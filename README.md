@@ -7,8 +7,8 @@ Outils de gestion et de suivi du réseau d'eau d'un consortage d'irrigation.
 
 | Outils        | But           | Lien      |
 | ------------- |:-------------:| -------------:|
-| Qgis     |  |     |
-| ReFrame|  traitement des coordonnées |   https://www.swisstopo.admin.ch/fr/cartes-donnees-en-ligne/calculation-services/reframe.html|
+| Qgis     | traitement des géodonnées |  https://www.qgis.org   |
+| ReFrame|  transformation des coordonnées mn95 en wgs84|   https://www.swisstopo.admin.ch/fr/cartes-donnees-en-ligne/calculation-services/reframe.html|
 | swisstopo      | coordonnées des parcelles |  https://www.swisstopo.admin.ch |
 | Leaflet | icônes sur la map     |   https://leafletjs.com/ |
 | Mapbox | carte et icônes    |   https://www.mapbox.com/ |
