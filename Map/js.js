@@ -62,10 +62,13 @@ polygon3.bindTooltip("453",
     {permanent: true, direction:"center"}
 ).openTooltip()
 
+var van1 = L.icon([46.306179, 7.522609])
+van1.set
+
 
 
 function onMapClick(e) {
-    alert("You clicked the map at " + e.latlng);
+    open("Work/Valve.html");
 }
 
 mymap.on('click', onMapClick);
