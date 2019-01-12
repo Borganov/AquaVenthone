@@ -62,6 +62,8 @@ polygon3.bindTooltip("453",
     {permanent: true, direction:"center"}
 ).openTooltip()
 
+
+// Définition des icônes
 var circle = L.icon({
     iconUrl: "Icons/circle.svg",
     iconSize:     [38, 95], // size of the icon
@@ -83,7 +85,11 @@ var triangle = L.icon({
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 
+//Placement des icônes
 L.marker([46.306179,7.522609], {icon: circle}).addTo(mymap);
+L.marker([46.305357,7.523285], {icon: triangle}).addTo(mymap);
+L.marker([46.304571,7.52394], {icon: square}).addTo(mymap);
+L.marker([46.304045,7.523661], {icon: triangle}).addTo(mymap);
 
 function onMapClick(e) {
     open("Work/Valve.html");
