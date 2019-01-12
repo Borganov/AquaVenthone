@@ -62,10 +62,28 @@ polygon3.bindTooltip("453",
     {permanent: true, direction:"center"}
 ).openTooltip()
 
-var van1 = L.icon([46.306179, 7.522609])
-van1.set
+var circle = L.icon({
+    iconUrl: "Icons/circle.svg",
+    iconSize:     [38, 95], // size of the icon
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
 
+var square = L.icon({
+    iconUrl: "Icons/square.svg",
+    iconSize:     [38, 95], // size of the icon
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
 
+var triangle = L.icon({
+    iconUrl: "Icons/triangle.svg",
+    iconSize:     [38, 95], // size of the icon
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
+
+L.marker([46.306179,7.522609], {icon: circle}).addTo(mymap);
 
 function onMapClick(e) {
     open("Work/Valve.html");
