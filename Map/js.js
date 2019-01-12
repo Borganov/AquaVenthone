@@ -69,14 +69,14 @@ var circle = L.icon({
     iconSize:     [38, 95], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
-}, mymap.on('click', onMapClickValve));
+});
 
 var square = L.icon({
     iconUrl: "Icons/square.svg",
     iconSize:     [38, 95], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
-}, mymap.on('click', onMapClickJet));
+});
 
 var triangle = L.icon({
     iconUrl: "Icons/triangle.svg",
@@ -84,27 +84,16 @@ var triangle = L.icon({
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 
-}, mymap.on('click', onMapClickRobinet));
+});
+
 
 //Placement des icônes
-L.marker([46.306179,7.522609], {icon: circle}).addTo(mymap);
-L.marker([46.305357,7.523285], {icon: triangle}).addTo(mymap);
-L.marker([46.304571,7.52394], {icon: square}).addTo(mymap);
-L.marker([46.304045,7.523661], {icon: triangle}).addTo(mymap);
+L.marker([46.306179,7.522609], {icon: circle}).addTo(mymap).bindPopup('<a href="Work/Valve.html"> Vanne de Darnona</a>');
+L.marker([46.305357,7.523285], {icon: triangle}).addTo(mymap).bindPopup("Jet du talus");
+L.marker([46.304571,7.52394], {icon: square}).addTo(mymap).bindPopup('<a href="Work/robinet.html"> Robinet parcelle 453</a>');
+L.marker([46.304045,7.523661], {icon: triangle}).addTo(mymap).bindPopup('<a href="Work/Jet.html"> Jet de la parcelle 453</a>');
 L.marker([46.303963, 7.525345], {icon: triangle}).addTo(mymap);
-L.marker([46.305312, 7.517996], {icon: circle}).addTo(mymap);
 
 
-function onMapClickValve(e) {
-    open("Work/Valve.html");
-}
-
-function onMapClickJet(e) {
-    open("Work/jet.html");
-}
-
-function onMapClickRobinet(e) {
-    open("Work/robinet.html");
-}
 
 //mymap.on('click', onMapClick);
