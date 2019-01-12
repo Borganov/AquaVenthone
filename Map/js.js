@@ -8,6 +8,25 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
     id: 'mapbox.streets'
 }).addTo(mymap);
 
+//Partie concernant l'integration d'un geoJson
+
+// var district_boundary = new L.geoJson();
+// district_boundary.addTo(map);
+//
+// $.ajax({
+//     dataType: "json",
+//     url: "test.geojson",
+//     success: function(data) {
+//         $(data.features).each(function(key, data) {
+//             district_boundary.addData(data);
+//         });
+//     }
+// }).error(function() {});
+
+
+var geojsonLayer = new L.GeoJSON.AJAX("test.geojson");
+geojsonLayer.addTo(mymap);
+
 var polygon1 = L.polygon([
     [46.304888, 7.525616],
     [46.305082, 7.525262],
