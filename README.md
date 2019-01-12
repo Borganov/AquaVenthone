@@ -1,7 +1,10 @@
 # AquaVenthône
 
 ## Problématique :
-Outils de gestion et de suivi du réseau d'eau d'un consortage d'irrigation.
+Outils de gestion et de suivi du réseau d'eau d'un consortage d'irrigation. L'idée est de créer une carte interactive regroupant
+toutes les informations concernant les parcelles ainsi que l'installation hydraulique. Permettre de faire le suivi de la construction
+en pouvant éditer chaque objet (vannes, conduite, robinet, etc...).
+
 
 ## Outils
 
@@ -17,13 +20,13 @@ Outils de gestion et de suivi du réseau d'eau d'un consortage d'irrigation.
 - Prise de connaissance du sujet du "Hackathon" 
 - Choix d'une problématique
 - Définition des objectifs : 
- + Indispensable
- + Nice to have
+    + Indispensable
+    + Nice to have
 - Veille des outils utiles et libres
 - Test de base :  Map
 - Répartition des tâches 
-   + Dessin parcelle
-   + Dessin éléments ( vanne, jet, robinet)
+   + Dessin parcelle *(Gabriel et Alexandre)*
+   + Dessin éléments ( vanne, jet, robinet) *(Yann et Valentin)*
 - Mise en commun
 - Présentation
 
