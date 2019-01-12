@@ -90,9 +90,11 @@ L.marker([46.306179,7.522609], {icon: circle}).addTo(mymap);
 L.marker([46.305357,7.523285], {icon: triangle}).addTo(mymap);
 L.marker([46.304571,7.52394], {icon: square}).addTo(mymap);
 L.marker([46.304045,7.523661], {icon: triangle}).addTo(mymap);
+L.marker([46.303963, 7.525345], {icon: triangle}).addTo(mymap);
+L.marker([46.305312, 7.517996], {icon: circle}).addTo(mymap);
 
 function onMapClick(e) {
-    open("Work/Valve.html");
+   // open("Work/Valve.html");
 }
 
 mymap.on('click', onMapClick);
