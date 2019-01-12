@@ -22,8 +22,8 @@ Outils de gestion et de suivi du réseau d'eau d'un consortage d'irrigation.
 - Veille des outils utiles et libres
 - Test de base :  Map
 - Répartition des tâches 
-  + Dessin parcelle
-  + Dessin éléments ( vanne, jet, robinet)
+   + Dessin parcelle
+   + Dessin éléments ( vanne, jet, robinet)
 - Mise en commun
 - Présentation
 
